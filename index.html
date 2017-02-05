@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Beauty by Whitney</title>
+    <!-- Bootstrap -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <!-- Extra styling -->
+    <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.css">
+    <link rel="stylesheet" href="bootstrap-social-gh-pages\bootstrap-social.css">
+    <link rel="stylesheet" href="CSS\commonStyleSheet.css">
+    <link rel="stylesheet" href="CSS\homeStyleSheet.css">
+    <style type="text/css">
+      #main-navbar { background: #ffffff url("Images/background.png") no-repeat bottom center fixed !important; }
+    </style>
+</head>
+<body>
+
+  <!-- nav bar -->
+  <nav id="main-navbar" class="navbar navbar-default">
+    <div class="container-fluid">
+
+        <!-- Logo -->
+        <div id="main-navbar-header" class="navbar-header">
+            <a id="main-navbar-brand" href="index.html" class="navbar-brand"><img id="main-navbar-brand-image" src="Images\BeautyByWhitneyLogo1.png"></a>
+            <button id="main-navbar-nav-button" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-menuitems">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <!-- Menu Items -->
+        <div id="main-navbar-menuitems" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li id="main-navbar-home" class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li>
+                <!-- treatments drop down menu -->
+                <li class="dropdown">
+                    <a id="main-navbar-treatments-dropdown" href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-eye-open"></span>&nbsp;Treatments&nbsp;<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li id="main-navbar-treatments-dropdown-treatments"><a href="treatments.html">Browse Treatments</a></li>
+                        <li id="main-navbar-treatments-dropdown-pricelist"><a href="hours.html">Full Price List</a></li>
+                        <li id="main-navbar-treatments-dropdown-offers"><a href="offers.html">Special Offers</a></li>
+                        <li id="main-navbar-treatments-dropdown-terms"><a href="terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </li>
+                <!-- contact drop down menu -->
+                <li class="dropdown">
+                    <a id="main-navbar-contact-dropdown" href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-earphone"></span>&nbsp;Contact&nbsp;<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li id="main-navbar-contact-dropdown-contact"><a href="contact.html">How to Contact Me</a></li>
+                      <li id="main-navbar-contact-dropdown-availability"><a href="contact.html">My Availability</a></li>
+                      <li id="main-navbar-contact-dropdown-requestappointment"><a href="contact.html">Request an Appointement</a></li>
+                      <li id="main-navbar-contact-dropdown-hours"><a href="hours.html">Opening Hours</a></li>
+                    </ul>
+                </li>
+                <li id="main-navbar-portfolio"><a href="portfolio.html"><span class="glyphicon glyphicon-picture"></span>&nbsp;Portfolio</a></li>
+            </ul>
+
+            <!--right align -->
+            <ul class="nav navbar-nav navbar-right">
+                <li id="main-navbar-right-requestappointment" ><a href="#"><span class="glyphicon glyphicon-calendar"></span>&nbsp;Request Appointment</a></li>
+                <!-- social media -->
+                <li id="main-navbar-right-socialmedia-facebook"><a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+                <li id="main-navbar-right-socialmedia-instagram"><a href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+            </ul>
+
+        </div>
+
+    </div>
+  </nav>
+
+  <!-- main content -->
+  <div id="home-main-content" class="container">
+      <!-- Header -->
+      <div id="home-headers-wrapper">
+          <h1 id="home-header">About Me.</h1>
+          <h3 id="home-header-subtext">Bath-based, mobile beauty services. Specialising in wedding make-up.</h3>
+      </div>
+
+      <!-- TODO: Insert image here -->
+
+      <!-- content -->
+      <div id="home-main-content-grid" class="row">
+          <!-- services -->
+          <div id="home-content-services" class="col-md-4 col-xs-12">
+            <i id="home-content-services-icon" class="fa fa-list-alt fa-4x" style="color:pink;"></i>
+            <h4 id="home-content-services-header">Services.</h4>
+            <p id="home-content-services-text">Some content about the salon serves goes here. Maybe something like.... we offer a range of services at competetive prices with discounts.</p>
+            <a id="home-content-button-treatments" href="#" class="btn btn-theme">Treatments&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></a>
+            <a id="home-content-button-pricelist" href="#" class="btn btn-theme">Price List&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></a>
+            <a id="home-content-button-specialoffers" href="#" class="btn btn-theme">Offers&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></a>
+          </div>
+
+          <!-- contact me -->
+          <!-- TODO: link to contact pag directs to the form fill out bit -->
+          <div id="home-content-contactme" class="col-md-4 col-xs-12">
+            <i id="home-content-contactme-icon" class="fa fa-comments fa-4x" style="color:pink;"></i>
+            <h4 id="home-content-contactme-header">Contact Me.</h4>
+            <p id="home-content-contactme-text">Some content about how to contact whitney goes here. Maybe something like.... contact whitney via facebook, phone, or through email <a href="contatct.html">here.</p>
+            <a id="home-content-button-getintouch" href="#" class="btn btn-theme">Get in Touch&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></a>
+          </div>
+
+          <!-- See My Work -->
+          <div id="home-content-work" class="col-md-4 col-xs-12">
+            <i id="home-content-work-icon" class="fa fa-folder-open fa-4x" style="color:pink;"></i>
+            <h4 id="home-content-work-header">See My Work.</h4>
+            <p id="home-content-work-text">Some content about the work goes here. Maybe something like.... you can see my work in the portfolio section. You can look at reviews also.</p>
+            <a id="home-content-button-reviews" href="#" class="btn btn-theme">Reviews&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></a>
+            <a id="home-content-button-portfolio" href="#" class="btn btn-theme">Portfolio&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></a>
+          </div>
+      </div>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <a id="footer-contact" href="contact.html">Contact</a>&nbsp;|&nbsp;
+    <a id="footer-hours" href="hours.html">Hours</a>&nbsp;|&nbsp;
+    <a id="footer-terms" href="terms.html">Terms</a>&nbsp;|&nbsp;
+    <a id="footer-portfolio" href="portfolio.html">Portfolio</a>&nbsp;|&nbsp;
+    <a id="footer-bookings" href="contact.html">Bookings</a>&nbsp;|&nbsp;
+    <a id="footer-facebook" href="#">Facebook</a>&nbsp;|&nbsp;
+    <a id="footer-instaram" href="#">Instagram</a>
+  </footer>
+
+</body>
+</html>

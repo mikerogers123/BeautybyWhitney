@@ -1,0 +1,10 @@
+/* Headers */
+#home-headers-wrapper { text-align: center; padding-bottom: 40px }
+
+/* Main Content */
+#home-main-content {text-align: center;}
+
+#home-content-services,
+#home-content-contactme,
+#home-content-work
+{padding-bottom:40px;}
