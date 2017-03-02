@@ -1,8 +1,39 @@
+/* Intro */
+#home-intro {
+  font-style: italic;
+  padding-bottom: 40px;
+}
+
 /* Headers */
 #home-headers-wrapper { text-align: center; padding-bottom: 40px }
+#home-header-text {
+  background: #fff;
+  padding:0 20px;
+  font-weight: 500;
+  color: #777;
+}
+#home-header {
+   width: 100%;
+   text-align: center;
+   border-bottom: 1px solid #777;
+   line-height: 0.1em;
+   margin: 20px 0 20px;
+}
+
+/* about */
+#home-about-grid { padding-bottom: 40px }
+
+/* divider */
+#divider {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #777;
+  line-height: 0.1em;
+}
 
 /* Main Content */
-#home-main-content {text-align: center;}
+#home-main-content { text-align: center; }
+#home-main-content-grid { padding-top: 40px }
 
 #home-content-services,
 #home-content-contactme,
