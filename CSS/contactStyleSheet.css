@@ -1,0 +1,39 @@
+/* Headers */
+#contact-headers-wrapper { text-align: center; padding-bottom: 20px }
+#contact-header-text {
+  background: #fff;
+  padding:0 20px;
+  font-weight: 500;
+  color: #777;
+}
+#contact-header {
+   width: 100%;
+   text-align: center;
+   border-bottom: 1px solid #777;
+   line-height: 0.1em;
+   margin: 20px 0 20px;
+}
+#contact-subheaders-wrapper { padding-bottom: 40px }
+
+/* Main Content */
+#contact-main-content { text-align: center; }
+#contact-main-content-grid { padding-top: 40px }
+
+#contact-content-how-to,
+#contact-content-my-availability,
+#contact-content-request-appt
+{padding-bottom:40px;}
+
+.contact-details-pagelink
+{
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
+
+/* divider */
+#divider {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #777;
+  line-height: 0.1em;
+}
