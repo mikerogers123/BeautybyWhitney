@@ -26,7 +26,7 @@
 
         <!-- Logo -->
         <div id="main-navbar-header" class="navbar-header">
-            <a id="main-navbar-brand" class="navbar-brand"><img id="main-navbar-brand-image" src="Images\BeautyByWhitneyLogo1.png"></a>
+            <a id="main-navbar-brand" class="navbar-brand"><img id="main-navbar-brand-image" src="Images/LogoTxtNoBg.png"></a>
             <button id="main-navbar-nav-button" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-menuitems">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -77,27 +77,29 @@
   <!-- main content -->
   <div id="home-main-content" class="container">
       <img class="img-circle" src="Images/logoFuzz.jpg"></img>
-      <h3 id="home-intro">Bath-based, mobile beauty services.<br/>Specialising in wedding make-up.</h3>
-      <!-- Header -->
-      <div id="home-headers-wrapper" class="row">
-          <h1 id="home-header"><span id="home-header-text">About Me.</span></h1>
+      <!-- Intro -->
+      <div id="home-intro-wrapper">
+        <h3 id="home-intro">Bath & Bristol based, mobile beauty services.</h3>
+        <h4 id="home-subintro">Affordable beauty treatments in the comfort of your own home!</h4>
       </div>
 
       <!-- About -->
+      <div id="home-about-header-wrapper" class="row">
+          <h1 id="home-about-header"><span id="home-about-header-text">About Me.</span></h1>
+      </div>
+
       <div id="home-about-grid" class="row">
           <div id="home-about-1" class="col-sm-6 col-xs-12">
             <p>My name is Whitney and I am a fully qualified beauty therapist. I am offering professional treatments at an affordable price, in the comfort of your own home! I pride myself in being a perfectionist and I can guarantee I will carry out your treatments to the highest quality.</p>
           </div>
 
           <div id="home-about-2" class="col-sm-6 col-xs-12">
-            <p>I am a mobile therapist covering Bath and the surrounding areas. I can carry out treatments in my own home on request although I do not have my own treatment room currently. I specialise in individual eyelash extensions and bridal make up, although I enjoy carrying out any treatment!</p>
+            <p>I am a mobile therapist covering Bath, Bristol and the surrounding areas. I can carry out treatments in my own home on request although I do not have my own treatment room currently. Please feel free to contact me with any questions!</p>
           </div>
       </div>
 
       <!-- Content divider -->
       <p id="divider"></p>
-
-      <!-- TODO: Insert image here -->
 
       <!-- content -->
       <div id="home-main-content-grid" class="row">
@@ -105,18 +107,17 @@
           <div id="home-content-services" class="col-md-4 col-sm-12">
             <i id="home-content-services-icon" class="fa fa-list-alt fa-4x" style="color:pink;"></i>
             <h4 id="home-content-services-header">Services.</h4>
-            <p id="home-content-services-text">Some content about the salon serves goes here. Maybe something like.... we offer a range of services at competetive prices with discounts.</p>
+            <p id="home-content-services-text">I offer a range of services at competetive prices and have monthly special offers. Use the links below for more details.</p>
             <a id="home-content-button-treatments" href="BrowseTreatments.html" class="btn btn-theme">Treatments&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></a>
             <a id="home-content-button-pricelist" href="PriceList.html" class="btn btn-theme">Price List&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></a>
             <a id="home-content-button-specialoffers" href="PriceList.html" class="btn btn-theme">Offers&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></a>
           </div>
 
           <!-- contact me -->
-          <!-- TODO: link to contact page directs to the form fill out bit -->
           <div id="home-content-contactme" class="col-md-4 col-sm-12">
             <i id="home-content-contactme-icon" class="fa fa-comments fa-4x" style="color:pink;"></i>
             <h4 id="home-content-contactme-header">Contact Me.</h4>
-            <p id="home-content-contactme-text">Some content about how to contact whitney goes here. Maybe something like.... contact whitney via facebook, phone, or through email <a href="contatct.html">here.</p>
+            <p id="home-content-contactme-text">The best way to contact me is via phone, Facebook, or email - I will try to respond immediately. Click <a href="contact.html">here</a> to view contact details.</p>
             <a id="home-content-button-getintouch" href="Contact.html" class="btn btn-theme">Get in Touch&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></a>
           </div>
 
@@ -124,8 +125,8 @@
           <div id="home-content-work" class="col-md-4 col-sm-12">
             <i id="home-content-work-icon" class="fa fa-folder-open fa-4x" style="color:pink;"></i>
             <h4 id="home-content-work-header">See My Work.</h4>
-            <p id="home-content-work-text">Some content about the work goes here. Maybe something like.... you can see my work in the portfolio section. You can look at reviews also.</p>
-            <a id="home-content-button-reviews" href="Portfolio.html" class="btn btn-theme">Reviews&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></a>
+            <p id="home-content-work-text">Browse through my work in the <a href="Portfolio.html">portfolio</a> section or look at <a href="https://www.facebook.com/pg/BeautybyWhitney1/reviews/?ref=page_internal">reviews on my Facebook page</a>. The best way to keep up to date is by following me on <a href="https://www.instagram.com/beautybywhitney1/">Instagram</a>.</p>
+            <a id="home-content-button-reviews" href="https://www.facebook.com/pg/BeautybyWhitney1/reviews/?ref=page_internal" class="btn btn-theme">Reviews&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></a>
             <a id="home-content-button-portfolio" href="Portfolio.html" class="btn btn-theme">Portfolio&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></a>
           </div>
       </div>
@@ -134,10 +135,10 @@
   <!-- footer -->
   <footer id="main-footer">
     <a id="footer-contact" href="Contact.html">Contact</a>&nbsp;|&nbsp;
-    <a id="footer-hours" href="Contact.html">Hours</a>&nbsp;|&nbsp;
+    <a id="footer-hours" href="Contact.html#contact-content-my-availability">Hours</a>&nbsp;|&nbsp;
     <a id="footer-terms" href="Terms.html">Terms</a>&nbsp;|&nbsp;
     <a id="footer-portfolio" href="Portfolio.html">Portfolio</a>&nbsp;|&nbsp;
-    <a id="footer-bookings" href="Contact.html">Bookings</a>&nbsp;|&nbsp;
+    <a id="footer-bookings" href="Contact.html#contact-content-request-appt">Bookings</a>&nbsp;|&nbsp;
     <a id="footer-facebook" href="https://www.facebook.com/BeautybyWhitney1/">Facebook</a>&nbsp;|&nbsp;
     <a id="footer-instagram" href="https://www.instagram.com/beautybywhitney1/">Instagram</a>
   </footer>

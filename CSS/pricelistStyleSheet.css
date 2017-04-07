@@ -17,5 +17,18 @@
 /* Main Content */
 #pricelist-main-content {padding-bottom: 20px}
 
+/* Offers */
+#pricelist-offers-container{padding-bottom: 40px}
+#pricelist-offers-container{text-align: center;}
+
+/* divider */
+#divider {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #777;
+  line-height: 0.1em;
+}
+
 /* table */
+#pricelist-table-container{padding-top: 40px}
 thead {background-color: rgb(237, 235, 248)}

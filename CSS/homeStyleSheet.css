@@ -1,18 +1,18 @@
 /* Intro */
-#home-intro {
+#home-intro-wrapper {
   font-style: italic;
   padding-bottom: 40px;
 }
 
 /* Headers */
-#home-headers-wrapper { text-align: center; padding-bottom: 40px }
-#home-header-text {
+#home-about-header-wrapper { text-align: center; padding-bottom: 40px }
+#home-about-header-text {
   background: #fff;
   padding:0 20px;
   font-weight: 500;
   color: #777;
 }
-#home-header {
+#home-about-header {
    width: 100%;
    text-align: center;
    border-bottom: 1px solid #777;

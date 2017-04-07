@@ -1,0 +1,30 @@
+/* Headers */
+#browse-headers-wrapper { text-align: center; padding-bottom: 20px }
+#browse-header-text {
+  background: #fff;
+  padding:0 20px;
+  font-weight: 500;
+  color: #777;
+}
+#browse-header {
+   width: 100%;
+   text-align: center;
+   border-bottom: 1px solid #777;
+   line-height: 0.1em;
+   margin: 20px 0 20px;
+}
+#contact-subheaders-wrapper { padding-bottom: 40px }
+
+/* Main Content */
+.content-title { color: grey }
+.content-header { font-weight: bold;}
+.content-description {padding-bottom: 10px;}
+.price {color: grey}
+
+/* divider */
+.divider {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #777;
+  line-height: 0.1em;
+}
