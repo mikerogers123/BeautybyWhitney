@@ -16,7 +16,27 @@
     <link rel="stylesheet" href="CSS\portfolioStyleSheet.css">
     <style type="text/css">
       #main-navbar { background: #ffffff url("Images/backgroundFuzz.jpg") no-repeat top center fixed !important; }
+      .feed-img { margin-bottom: 2rem; }
     </style>
+
+    <!-- Instafeed -->
+    <script type="text/javascript" src="js\instafeed.min.js"></script>
+    <script type="text/javascript">
+      var feed = new Instafeed({
+        get: 'user',
+        userId: '4736166726',
+        clientId: '8c9874ffea8442e2b86425d91ecb95a9',
+        accessToken: '4736166726.1677ed0.f206031a4b274ade8b376dba9c839f50',
+        template: '<div class="col-xs-12 col-sm-6 text-center feed-img"><a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" class="img-thumbnail" /></a></div>',
+        sortBy: 'most-liked',
+        resolution: 'standard_resolution',
+        after: function () {
+          $("#instafeed div a > img").css('width', '100%');
+          $("#instafeed div a > img").css('padding-bottom', '2rem');
+        },
+      });
+      feed.run();
+    </script>
 </head>
 <body>
 
@@ -82,8 +102,11 @@
         <h1 id="portfolio-header"><span id="portfolio-header-text">Portfolio.</span></h1>
     </div>
 
-    <!-- coming soon -->
-    <h2 style="text-align: center">***COMING SOON***</h2>
+
+    <!-- feed -->
+    <div class="row feed-img">
+      <div id="instafeed"></div>
+    </div>
 
   </div>
 
