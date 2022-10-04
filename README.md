@@ -1,2 +1,3 @@
-# BeautybyWhitney
-Whitney's beauty website
+# Archived
+
+No longer in use
